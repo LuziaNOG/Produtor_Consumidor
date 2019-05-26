@@ -1,0 +1,33 @@
+############################################## Codigo #####################################################
+Programa em C que resolve o problema classico do Consumidor e Produtor utilizando semafaros
+
+########################### Configuração da máquina na qual foi feita o programa ########################### 
+Versão do Sistema Operacional e Distribuição Linux: Ubuntu 18.04.1 LTS
+Versão dos compiladores gcc: gcc version 7.3.0
+
+############################################# Pacotes a serem instalados #################################### 
+ -sudo apt-get install build-essential
+ -sudo apt-get install libpthread-stubs0-dev
+
+##########################################  Etapas para compilação do programa ############################## 
+ 1- Baixe o arquivo no seu pc
+ 2- Abra o terminal e va atá o local que o arquivo esta salvo
+ 3- Rode o comando : gcc nome_do_arquivo.c -lpthread
+ 4- Ao rodar o comando anterior um arquivo a.out será criado
+ 5- Compile o arquivo a.out com o comando passando como para parametro 1º tempo de execuçao  - 2º Quantidades de produtores  - 3 Quantidade de consumidores, exemplo: ./a.out 20 3 1
+ 6- Caso queira parar o programa antes do tempo passado por paramentro use o comando ctrl + c.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
